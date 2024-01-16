@@ -45,7 +45,9 @@ It is recommended to mount the following volumes, for better build performance:
 
 steps for create CI/CD for odoo projects:
 
-use spacefic image "alezz77122/odoo-ci:22.4"
+use spacefic image 
+
+		alezz77122/odoo-ci:22.4
 
 1- install gitlab-runner:
 run this command to get gitlab-repository : 
