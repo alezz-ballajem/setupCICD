@@ -5,7 +5,7 @@ This Odoo image has the following characteristics:
 - Based on Ubuntu 22.04.
 - Minimal dependencies to run Odoo CI jobs
 
-  - git (with user.name=GitLab and user.email=gitlab@opsivist.io)
+  - git (with user.name=GitLab and user.email=gitlab@sonod.tech)
   - git-autoshare
   - mercurial
   - openssh-client
