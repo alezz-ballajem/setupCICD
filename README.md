@@ -48,8 +48,12 @@ steps for create CI/CD for odoo projects:
 use spacefic image "alezz77122/odoo-ci:22.4"
 
 1- install gitlab-runner:
-run this command to get gitlab-repository : curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
-run this command to install gitlab-runner latest version : sudo apt-get install gitlab-runner
+run this command to get gitlab-repository : 
+
+	curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
+run this command to install gitlab-runner latest version : 
+
+	sudo apt-get install gitlab-runner
 
 register in this gitlab-runner by run this command: 
 
@@ -63,7 +67,9 @@ register in this gitlab-runner by run this command:
        we choose this image "alezz77122/odoo-ci:22.4"
 
 
-run this command to start gitlab-runner : sudo service gitlab-runner start
+run this command to start gitlab-runner : 
+
+	sudo service gitlab-runner start
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 create volumes for this gitlab runner to caches like git-autoshare and pip/cache
@@ -85,7 +91,7 @@ create volumes for this gitlab runner to caches like git-autoshare and pip/cache
 
 4- after all these steps we restart the gitlab-runner by run this command : 
 
-   sudo service gitlab-runner start
+   	sudo service gitlab-runner start
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 5- when we create new project we rename it and copy all files and update almost files 
